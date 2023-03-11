@@ -7,3 +7,8 @@ lazy val root = (project in file("."))
     name := "expl-scala3",
     idePackagePrefix := Some("com.us.dsb.scala3")
   )
+
+scalacOptions ++= Seq(
+  "-explain",
+  "-feature"
+)
