@@ -4,8 +4,7 @@ ThisBuild / scalaVersion := "3.2.2"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "expl-scala3",
-    idePackagePrefix := Some("com.us.dsb.scala3")
+    name := "expl-scala3"
   )
 
 scalacOptions ++= Seq(
