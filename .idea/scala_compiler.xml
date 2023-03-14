@@ -5,6 +5,7 @@
       <option name="featureWarnings" value="true" />
       <parameters>
         <parameter value="-explain" />
+        <parameter value="-Wunused:nowarn" />
       </parameters>
     </profile>
   </component>
